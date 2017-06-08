@@ -32,8 +32,13 @@ div, body{
   bottom: 0; 
   display: block;
   position: absolute;
+<<<<<<< HEAD
   background-color: rgba(0,0,0,0);
   color: dimgrey;
+=======
+  background-color: rgba(0,0,1,1);
+  color: #fff;
+>>>>>>> origin/master
   padding: 10px;
     align-content: center;
 }
