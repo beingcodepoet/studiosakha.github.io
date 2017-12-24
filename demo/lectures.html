@@ -28,17 +28,40 @@
 			<div id="preview">
 				<div class="inner">
 					<div class="image fit">
-						<img src="images/pic05.jpg" alt="" />
+						<img src=" " />
 					</div>
 					<div class="content">
 						<header>
-                            <div id="locationheader">
-                            
-							<h2>'Story Of Bhopal'</h2>
-                                </div>
+                            <div id="lecturesheader">
+                            <div id="lecturefont">
+							'Story Of Bhopal'</div>
+                                 </div>
 						</header>
+                        <div class="extrapagecontent">
 						<p>Guest Lecture on 'Story of Bhopal' with students of Chitkara University</p>
-                        
+                       </div>
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="images/lectures1.jpg" alt="" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="images/lectures2.jpg" alt="" onclick="openImg(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
 						
 					</div>
 				</div>

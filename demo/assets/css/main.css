@@ -936,10 +936,10 @@
 			}
 
 			.columns .image:hover img {
-				-moz-transform: scale(1.1);
-				-webkit-transform: scale(1.1);
-				-ms-transform: scale(1.1);
-				transform: scale(1.1);
+				-moz-transform: scale(0.9);
+				-webkit-transform: scale(0.9);
+				-ms-transform: scale(0.9);
+				transform: scale(0.9);
 			}
 
 		@media screen and (max-width: 736px) {
@@ -966,12 +966,12 @@
 
 	#preview {
 		position: relative;
-		padding: 1em;
+		padding: ;
 	}
 
 		#preview .inner {
-			max-width: 70em;
-			margin: 0 auto;
+			max-width: 100%;
+			margin: ;
 		}
 
 		#preview .image {
@@ -1041,7 +1041,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#preview .inner {
-				max-width: 55em;
+				max-width: 100%;
 			}
 
 		}
@@ -1526,6 +1526,117 @@
         width: 100%;
 }
 
-#locationheader {
+#lecturesheader {
+    background-color: green;
+    display: block;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+#lecturefont {
+    color: white;
+    align-content: center;
+    font-size: 4.5em;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.extrapagecontent {
     
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }
