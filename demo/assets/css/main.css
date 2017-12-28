@@ -1242,7 +1242,7 @@
 			display: -ms-flexbox;
 			-ms-flex-align: center;
 			-ms-flex-pack: center;
-			background: #e74c3c;
+			background: #FFFF01;
 			border-radius: 100%;
 			width: 35em;
 			height: 35em;
@@ -1648,4 +1648,131 @@
     padding-top: 40px;
     margin-left: -40px;
     margin-right: -40px;
+}
+
+#aboutheader {
+    background-color: yellow;
+    display: block;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    margin-left: -40px;
+    margin-right: -40px;
+    
+}
+.columnabout {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .columnabout {
+        width: 100%;
+    }
+}
+
+.nameheading {
+    
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contentforabout {
+    
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.imageforaboutpasp {
+    
+    padding-left: 250px;
+}
+
+.qoutes {
+    
+    font-style: italic;
+    
+}
+
+#subheadingforabout {
+    
+ font-size: 20px;
+    text-transform: uppercase;
+    color: red;
+    padding-bottom: 15px;
+    
+}
+
+.sakhateamtitle {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+
+}
+
+#sakhateamsubtitle {
+    
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.containerforteam {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imageforsakha {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+@media (max-width: 600px) {
+    .containerforteam {
+        width: 100%;
+    }
+}
+
+.middleteamtext {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerforteam:hover .imageforsakha {
+  opacity: 0.3;
+}
+
+.containerforteam:hover .middleteamtext {
+  opacity: 1;
+}
+
+.textteam {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
