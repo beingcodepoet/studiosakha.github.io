@@ -1,0 +1,64 @@
+.container12 {
+  position: relative;
+  width: 50%;
+}
+
+.image12 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay12 {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container12:hover .overlay12 {
+  width: 100%;
+  left: 0;
+}
+
+.text12 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.div1 {
+     width: 50%;
+  display: inline-block;
+}
+.div2 {
+     width: 50%;
+  display: inline-block;
+}
+
+.columnlectures {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.rowlectures:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .columnlectures {
+        width: 100%;
+    }
+}
