@@ -137,7 +137,7 @@ ol {
 }
 
 .set-bg {
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -565,7 +565,7 @@ ol {
 }
 
 .hero-slider .hero-slide-item {
-	width: 100%;
+	width: inherit;
 	height: 960px;
 	display: table;
 }
@@ -573,7 +573,7 @@ ol {
 .hero-slider .hero-slide-item .slide-inner {
 	display: table-cell;
 	vertical-align: middle;
-	position: relative;
+	position: inherit;
 }
 
 .hero-slider .owl-nav {
@@ -624,7 +624,7 @@ ol {
 	text-align: right;
 	padding-right: 20px;
 	padding-top: 60px;
-	color: #fff;
+	color: black;
 	font-weight: 700;
 }
 
@@ -637,8 +637,8 @@ ol {
 }
 
 .slide-content {
-	max-width: 690px;
-	margin-left: 350px;
+	max-width: inherit;
+	margin-left: 0px;
 	margin-bottom: 50px;
 	padding-left: 190px;
 	padding-top: 170px;
@@ -1185,13 +1185,11 @@ ol {
 }
 
 .team-member .member-info {
-	position: absolute;
 	padding-left: 35px;
 	padding-top: 10px;
-	padding-bottom: 10px;
 	width: 230px;
 	background: #fff;
-	bottom: 37px;
+	bottom: 0px;
 	right: 0;
 	-webkit-box-shadow: 6px 7px 20px rgba(114, 114, 114, 0.21);
 	        box-shadow: 6px 7px 20px rgba(114, 114, 114, 0.21);
@@ -1201,7 +1199,7 @@ ol {
 }
 
 .team-member .member-info h2 {
-	font-size: 30px;
+	font-size: 23px;
 	margin-bottom: 0;
 }
 
@@ -2106,4 +2104,7 @@ ol {
 	.projects-slider {
 		padding: 0 15px;
 	}
+}
+.smallercontent { 
+    font-size: 15px;
 }
