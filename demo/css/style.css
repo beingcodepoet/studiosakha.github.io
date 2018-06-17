@@ -573,8 +573,8 @@ ol {
 
 .hero-slider .hero-slide-item .slide-inner {
 	display: table-cell;
-	vertical-align: middle;
-	position: relative;
+	vertical-align: bottom;
+	
 }
 
 .hero-slider .owl-nav {
