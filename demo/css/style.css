@@ -637,7 +637,7 @@ ol {
 	right: -10px;
 }
 
-.slide-content {
+.slide-contenttp {
 	margin-left: 350px;
 	margin-bottom: 50px;
 	padding-left: 190px;
@@ -650,7 +650,7 @@ ol {
 	transition: all 0.6s;
 }
 
-.slide-content:after {
+.slide-contenttp:after {
 	position: absolute;
 	content: "";
 	height: calc(100% + 50px);
@@ -1139,7 +1139,7 @@ ol {
 	position: absolute;
 	width: 50%;
 	height: calc(100% + 120px);
-	left: 0;
+	left: -30px;
 	top: -60px;
 	background-image: url("../img/SANDEEEP.jpg");
 	background-repeat: no-repeat;
@@ -2117,3 +2117,59 @@ ol {
     font-size: 35px;
     color: white;
 }
+
+.socialmediaforsakha {
+    
+    align-content: center;
+    padding-top: 10px;
+}
+
+/* Nav bar for Menu */
+
+.nav-menuhp {
+	display: inline-block;
+	float: right;
+}
+
+.nav-menuhp ul {
+	list-style: none;
+}
+
+.nav-menuhp ul li {
+	display: inline;
+}
+
+.nav-menuhp ul li a {
+	display: inline-block;
+	padding: 40px 10px 5px;
+	text-transform: uppercase;
+	margin-right: 30px;
+	font-size: 15px;
+    font-family: sans-serif;
+	color: black;
+	font-weight: 500;
+	position: relative;
+}
+
+.nav-menuhp ul li a:after {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 0;
+	left: 50%;
+	margin-left: 1px;
+	top: 0;
+	background: #baff00;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.nav-menuhp ul li a:hover:after {
+	height: 25px;
+}
+
+.nav-menuhp ul li.active>a:after {
+	height: 25px;
+}
+
