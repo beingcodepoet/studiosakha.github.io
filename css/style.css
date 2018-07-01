@@ -514,7 +514,7 @@ ol {
 /*  Hero Section CSS
 /*----------------------------------------*/
 .hero-section {
-	height: 960px;
+	height: 600px;
 	background: #ededed;
 	position: relative;
 }
@@ -567,7 +567,7 @@ ol {
 
 .hero-slider .hero-slide-item {
     width: auto;    
-	height: 960px;
+	height: 600px;
 	display: inherit;
 }
 
@@ -1881,7 +1881,7 @@ ol {
 	}
 	.hero-section,
 	.hero-slider .hero-slide-item {
-		height: 850px;
+		height: 500px;
 	}
 	.milestone,
 	.solid-service-box {
@@ -1966,11 +1966,11 @@ ol {
 		height: 10px;
 	}
 	.hero-section {
-		height: auto;
+		height: 700px;
 	}
 	.hero-slider .hero-slide-item {
 		padding: 150px 0;
-		height: auto;
+		height: 600px;
 	}
 	.slide-content h2 {
 		font-size: 60px;
