@@ -566,6 +566,7 @@ ol {
 }
 
 .hero-slider .hero-slide-item {
+    
     width: auto;    
 	height: 600px;
 	display: inherit;
@@ -581,7 +582,7 @@ ol {
 	position: absolute;
 	display: inline-block;
 	left: 350px;
-	bottom: 70px;
+	bottom: 20px;
 }
 
 .hero-slider .owl-nav .owl-prev,
@@ -2121,6 +2122,10 @@ ol {
 .socialmediaforsakha {
     padding-left: 10px;
     padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+  
 }
 
 /* Nav bar for Menu */
